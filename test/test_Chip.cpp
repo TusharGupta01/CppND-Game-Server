@@ -1,5 +1,5 @@
 // test_Chip.cpp 
-// Created by Robin Rowe 2019-01-20
+// Created by Tushar Gupta 2019-01-24
 // License MIT MIT open source
 
 #include <stdio.h>
@@ -7,9 +7,8 @@
 
 int main(int argc,char* argv[])
 {	puts("Print Chip");
-	Chip x = 10;
-//	x.Print();
-	printf("%zu",x);
+	Chip x;
+	x.Print();
 	puts("\nDone!");
 	return 0;
 }
