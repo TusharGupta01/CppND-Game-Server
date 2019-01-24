@@ -9,7 +9,7 @@ At the terminal, type the following commands to create your project:
 cd CppND-Game-Server
 bash bash/make_cmake.sh game_project
 ```
-Next, run the following command to generate placeholder classes for the simulated physical objects (only doing Hand, Deck and Player here. Later you will create more).
+Next, run the following command to generate placeholder classes for the simulated physical objects.
 
 ```sh
 bash bash/make_class.sh Card Hand Deck Player Dealer Table Chip Seat Bank Pot
